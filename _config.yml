@@ -1,1 +1,237 @@
-theme: jekyll-theme-cayman
+body {
+  color: white;
+  font-weight: 400;
+  font-size: 1.75em;
+  background-color: #333;
+  font-family: amatic sc;
+}
+
+h1 {
+  font-size: 2em;
+  color: #940000
+}
+
+h1:hover {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+th {
+  background-color: #222;
+  color: white;
+}
+
+thead th{
+  position: sticky;
+  top: 0;
+}
+
+.dropdown-menu {
+  background-color: #ffc107;
+  font-size: .75em;
+}
+  
+.dropdown-item:hover {
+  background-color: #111111;
+  color: #99060D;
+}
+
+.dropdown-divider {
+  border-top: 1px solid #99060D;
+}
+
+.nav-link:hover {
+  color: #EDED00;
+}
+
+.subTitle {
+  font-family: permanent marker;
+  text-align: center;
+    background: -webkit-linear-gradient(#F5CFBC, #FC6C23);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  font-family: permanent marker;
+  font-size: 3em;
+  color: white;
+  -webkit-text-stroke: 3px black;
+  text-align: center;
+  line-height: 55px;
+}
+
+.header {
+  background-image: url("https://www.screamhorrormag.com/wp-content/uploads/2016/05/Sabrina3-600x240.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 180px;
+}
+
+#footer {
+  background-color: pink;
+}
+
+#footer ul li {
+  text-align: center;
+
+}
+
+.table-bordered tr th {
+  border: 2px solid black;
+}
+
+.table-bordered tbody tr td {
+  border: 2px solid black;
+}
+
+.schedule {
+  height: 500px;
+  overflow-y: auto;
+  text-align: center;
+  color: #222;
+}
+
+.schedule tbody th {
+  color: #FFC107;
+}
+
+.schedule thead th{
+  color: #99060D;
+}
+
+.nav-link a:hover {
+  background-color: #99060D;
+}
+
+#ybor {
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/06/39/bd/0e/tampa-bay-brewing-company.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+#tampa {
+  background-image: url("https://images.fineartamerica.com/images-medium-large-5/tampa-black-and-white-night-frozen-in-time-fine-art-photography.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+#clearwater {
+  background-image: url('https://photos.visualjourney.com/img/s/v-3/p592809098-3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+#friday {
+  background-image: url('https://i.kinja-img.com/gawker-media/image/upload/s--ln9G6cS7--/c_scale,f_auto,fl_progressive,q_80,w_800/qe7dygnsk0jm98w2zv8c.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: black;
+  font-weight: 700;
+  padding-top: 1em;
+}
+
+#friday h2  {
+  color: #FC6C23;
+  -webkit-text-stroke: 3px black;
+  font-family: permanent marker;
+  font-size: 3em;
+}
+
+#collapseFriday {
+  padding-bottom: 80px;
+}
+
+#collapseFriday .card {
+  background-image: url('http://a.rgbimg.com/users/r/ro/rosebfischer/600/qzEYEnu.jpg');
+}
+
+#saturday {
+  background-image: url("https://www.dailydot.com/wp-content/uploads/2018/10/how_to_read_chilling_adventures_of_sabrina_online.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #111;
+  font-weight: 700;
+  padding-top: 1em;
+
+}
+
+#saturday h2 {
+  /*color: #FCF51C;*/
+  color: #FFC107;
+  -webkit-text-stroke: 3px black;
+  font-family: permanent marker;
+  font-size: 3em;
+}
+
+#sunday {
+  background-image: url('https://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/t/5bd0c84fe4966b853a8a5331/1540409427830/');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #0F8511;
+  font-weight: 700;
+  padding-top: 1em
+}
+
+#sunday h2 {
+  color: #121CA6;
+  -webkit-text-stroke: 3px black;
+  font-family: permanent marker;
+  font-size: 3em;
+}
+
+#sunday .schedule {
+  color: white;
+}
+
+#bachelorDale {
+  background-image: url('http://www.freewebdestinations.com/wp-content/uploads/2016/02/pops-diner-riverdale-by-zitawalker.gif');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+#bachelorDale h3 {
+  font-size: 1.5em;
+}
+
+#menuCards1 {
+  color: black;
+  font-size: .75em;
+  background-image: url('https://i.pinimg.com/originals/c5/95/eb/c595ebf6441ab7d32c493ac7d155c456.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+#menuCards2 {
+  color: black;
+  font-size: .75em;
+  background-image: url('https://data.whicdn.com/images/321552437/original.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+
+#menuCards3 {
+  color: black;
+  font-size: .75em;
+  background-image: url('https://pa1.narvii.com/6872/161d0be472f6e951556210d6f1b3c06253e6d5b2r1-640-360_hq.gif');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+
+#spookyStays {
+  background-image: url('https://indierevolver.files.wordpress.com/2014/10/afterlife-with-archie.png?w=520&h=350&crop=1');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
